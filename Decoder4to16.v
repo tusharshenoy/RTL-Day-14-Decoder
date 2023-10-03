@@ -1,9 +1,8 @@
 // Verilog Code for 4 to 16 Decoder
 // Structural  Style using Decoder3to8 Structure
-module Decoder4to16(A,E,Y);
+module Decoder4to16(A,Y);
 
 input [3:0]A;
-input E;
 
 output [15:0]Y;
 
